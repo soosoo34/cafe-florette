@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #222
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  border: 0px;
+  cursor: pointer;
+
+}
+
+.btn-primary {
+  background: white;
+  color: #222;
+}
+
+.btn-primary:hover {
+  background: #222;
+  color: white;
+
+}
+
+.btn-dark {
+  background: #222;
+  color: white;
+}
+
+.btn-dark:hover {
+  background: white;
+  color: #222;
+  border: 1px solid #222;
+}
+
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd
+}
+
+.chip {
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  border-radius: 100%;
+  background: #333;
+  color: white;
+
+}
+
+.chip-purple {
+  background: #be418c;
+
+}
+
+.chip-brown {
+  background: #8c5e24;
+}
+
+
+.separator {
+  margin: 20px auto;
+  height: 10px;
+  width: 100px;
+  background: black;
+
+}
+
+.header {
+  overflow: auto;
+  background: #333;
+  line-height: 1.7em;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav h1 {
+  float: left;
+  padding: 20PX;
+}
+
+header nav ul {
+  float: right;
+  list-style: none;
+}
+
+header nav ul li {
+  float: left;
+}
+
+header nav ul li a {
+  padding: 20px;
+  display: block;
+}
+
+.header nav ul li a:hover {
+  background: #222;
+}
+
+.active {
+  background: #444;
+}
+
+/* VP */
+
+.vp {
+  height: 700px;
+  background: url('../img/omid-armin-1UKx5_hhFLA-unsplash.jpg') center center;
+  background-size: cover;
+  text-align: center;
+
+}
+
+.vp-content {
+  max-width: 500px;
+  padding-top: 170px;
+  color: white;
+  display: block;
+  margin: auto;
+}
+
+.vp-content h1 {
+  font-size: 50px;
+}
+
+.vp-content p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+}
+
+/* Features */
+
+.feature {
+  float: left;
+  width: 50%;
+
+}
+
+.features {
+  padding: 100px 0px 100px 0px;
+  overflow: auto;
+  text-align: center;
+}
+
+/* person */
+.person {
+  height: 500px;
+  background: url('../img/nathan-dumlao-71u2fOofI-U-unsplash.jpg') center center/cover
+}
+
+/* reservation */
+.reservation {
+  padding: 100px 0px 100px 0px;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0px;
+
+}
+
+/* WHERE */
+
+.where {
+  padding: 100px 0px 100px 0px;
+  overflow: auto;
+  min-height: 100vh;
+
+}
+
+.where-img {
+  float: left;
+  width: 40%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.where-text {
+  width: 50%;
+  float: right;
+}
+
+.where-text p {
+  font-size: 13px;
+  color: #333;
+}
+
+/* contact */
+
+.contact {
+  padding: 180px 0px 100px 0px;
+  min-height: 100vh;
+}
+
+.contact-form-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form-container form label {
+  display: block;
+  font-weight: 700px;
+
+}
+
+.contact-form-container form input, textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.contact-form-container form textarea {
+  min-height: 80px;
+}
